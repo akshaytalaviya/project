@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>  
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/1d5864f4c7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/1d5864f4c7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="11.css">
+    
+</head>
+<body> 
+
+    <header>
+        <a href="#" class="logo">Gammers</a>
+        <ul class="nav">
+            <li><a href="#home">Home</a></li>   
+            <li><a href="#about">About</a></li>
+            <li><a href="#gamers">Gamers</a></li>
+            <li><a href="#tournaments">Tournaments</a></li>
+            <li><a href="#contact">contact</a></li>
+        </ul>
+        <div class="action">
+            <div class="searchBx">
+                <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                <input type="text" placeholder="search Games">
+            </div>
+        </div>
+        <div class="toggleMenu" onclick="toggleMenu();"></div>
+    </header>
+
+    <!-- Home Banner -->
+
+    <div class="banner" id="home">
+        <div class="bg">
+            <div class="content">
+                <h2>A New Home for<br>
+                Game Lovers</h2>
+                <p>Lorem ipsum dolor,  sit amet consectetur<br> adipisicing elit. Aspernatur voluptatem .</p>
+                <a href="#" class="btn">Join New</a>
+            </div>
+            <img src="img/3.png" alt=""> 
+        </div>
+    </div>
+
+
+    <!-- About -->
+    <div class="about" id="about">
+        <div class="contentBx">
+            <h2>About Us</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur incidunt accusantium odio mollitia dolore, iste autem expedita ipsam aliquam quidem facere deleniti unde sed facilis reiciendis! Officia voluptatibus molestias iusto!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates excepturi dicta minima, vero, sed, quidem voluptatem iusto tenetur quas corporis enim. Quam, provident molestiae consectetur dolore nesciunt reiciendis corrupti possimus.
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi accusantium et natus eum, obcaecati consequuntur iste tempora quae corrupti deleniti cumque voluptate assumenda. Cum ut fugit non optio beatae est.
+            </p>
+            <a href="#">Read more</a>
+        </div>
+        <img src="img/4.png" alt="">
+    </div>
+
+    <!--Games-->
+    <div class="games" id="gamers">
+        <h2> popular games</h2>
+        <ul>
+            <li class="list action " data-Filter="all">all</li>
+            <li class="list">Pc games</li>
+            <li class="list" data-Filter="Mobile">Mobile games</li>
+        </ul>
+        <div class="cardBx">
+            <div class="card" data-item="Pc">
+                <img src="img/5.png" alt="">
+                <div class="content">
+                    <h4>grand theft auto</h4>       
+                    <div class="progress-line"><span></span></div>
+                    <div class="info">
+                        <p>pricing<br><span>$10</span></p>
+                        <a href="#">play now</a> 
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" data-item="Pc">
+                <img src="img/9.jpg" alt="">
+                <div class="content">
+                    <h4>batman arkham city</h4>
+                    <div class="progress-line"><span></span></div>
+                    <div class="info">
+                        <p>pricing<br><span>$10</span></p>
+                        <a href="#">play now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" data-item="Pc">
+                <img src="img/10.avif" alt="">
+                <div class="content">
+                    <h4>Assassins cree valhalla</h4>
+                    <div class="progress-line"><span></span></div>
+                    <div class="info">
+                        <p>pricing<br><span>$10</span></p>
+                        <a href="#">play now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" data-item="Pc">
+                <img src="img/11.webp" alt="">
+                <div class="content">
+                    <h4>spider man</h4>
+                    <div class="progress-line"><span></span></div>
+                    <div class="info">
+                        <p>pricing<br><span>$10</span></p>
+                        <a href="#">play now</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="card" data-item="Pc">
+                <img src="img/12.webp" alt="">
+                <div class="content">
+                    <h4>god of war</h4>
+                    <div class="progress-line"><span></span></div>
+                    <div class="info">
+                        <p>pricing<br><span>$10</span></p>
+                        <a href="#">play now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" data-item="Mobile">
+                <img src="img/13.jpg" alt="">
+                <div class="content">
+                    <h4>battleground mobile india</h4>
+                    <div class="progress-line"><span></span></div>
+                    <div class="info">
+                        <p>pricing<br><span>$10</span></p>
+                        <a href="#">play now</a>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="card" data-item="Mobile">
+                <img src="img/14.jpg" alt="">
+                <div class="content">
+                    <h4> Modern Warfare 2 </h4>
+                    <div class="progress-line"><span></span></div>
+                    <div class="info">
+                        <a href="#">play now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" data-item="Mobile">
+                <img src="img/15.jpg" alt="">
+                <div class="content">
+                    <h4>Free Fire</h4>
+                    <div class="progress-line"><span></span></div>
+                    <div class="info">
+                        <p>pricing<br><span>$10</span></p>
+                        <a href="#">play now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" data-item="Mobile">
+                <img src="img/16.jpg" alt="">
+                <div class="content">
+                    <h4>shadow fight arena</h4>
+                    <div class="progress-line"><span></span></div>
+                    <div class="info">
+                        <p>pricing<br><span>$10</span></p>
+                        <a href="#">play now</a>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <!-- Tournaments -->
+    <div class="tournaments" id="tournaments">
+        <h2>Laiv Tournaments</h2>
+        <div class="boxBx">
+            <div class="box">
+                <img src="img/6.jpeg" alt="">
+                <div class="content">
+                    <h4><span>50</span> Matches in progress..</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi et velit, libero soluta eius expedita. 
+                       Et repudiandae, cum error provident illum culpa est sed voluptate sint quisquam officiis fugit quam.
+                    </p>
+                    <div class="btn">
+                        <a href="#" class="watch">Watch</a>
+                        <a href="#" class="join">join now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="img/17.webp" alt="">
+                <div class="content">
+                    <h4><span>30</span> Matches in progress..</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi et velit, libero soluta eius expedita. 
+                       Et repudiandae, cum error provident illum culpa est sed voluptate sint quisquam officiis fugit quam.
+                    </p>
+                    <div class="btn">
+                        <a href="#" class="watch">Watch</a>
+                        <a href="#" class="join">join now</a>
+                    </div>  
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="img/18.webp" alt="">
+                <div class="content">
+                    <h4><span>40</span> Matches in progress..</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi et velit, libero soluta eius expedita. 
+                       Et repudiandae, cum error provident illum culpa est sed voluptate sint quisquam officiis fugit quam.
+                    </p>
+                    <div class="btn">
+                        <a href="#" class="watch">Watch</a>
+                        <a href="#" class="join">join now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="img/19.webp" alt="">
+                <div class="content">
+                    <h4><span>40</span> Matches in progress..</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi et velit, libero soluta eius expedita. 
+                       Et repudiandae, cum error provident illum culpa est sed voluptate sint quisquam officiis fugit quam.
+                    </p>
+                    <div class="btn">
+                        <a href="#" class="watch">Watch</a>
+                        <a href="#" class="join">join now</a>
+                    </div>
+                </div>b
+            </div>
+
+            <div class="box">
+                <img src="img/20.webp" alt="">
+                <div class="content">
+                    <h4><span>20</span> Matches in progress..</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi et velit, libero soluta eius expedita. 
+                       Et repudiandae, cum error provident illum culpa est sed voluptate sint quisquam officiis fugit quam.
+                    </p>
+                    <div class="btn">
+                        <a href="#" class="watch">Watch</a>
+                        <a href="#" class="join">join now</a>
+                    </div>
+                </div> 
+            </div>
+
+            <div class="box">
+                <img src="img/21.jpg" alt="">
+                <div class="content">
+                    <h4><span>50</span> Matches in progress..</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi et velit, libero soluta eius expedita. 
+                       Et repudiandae, cum error provident illum culpa est sed voluptate sint quisquam officiis fugit quam.
+                    </p>
+                    <div class="btn">
+                        <a href="#" class="watch">Watch</a>
+                        <a href="#" class="join">join now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- contact -->
+
+    <div class="contact" id="contact">
+        <img src="img/7.webp" alt="">
+        <div class="form">
+            <h1>Content Us</h1>
+            <div class="inputBx">
+                <p>Enter Name</p>
+                <input type="text" placeholder="full Name">
+            </div>
+            <div class="inputBx">
+                <p>Enter Email</p>
+                <input type="text" placeholder="full Name">
+            </div>
+            <div class="inputBx">
+                <p>Message</p>
+                <textarea placeholder="type here..."></textarea>
+            </div>
+            <div class="inputBx">
+                <input type="submit" name="submit">
+            </div>
+        </div>
+
+    </div>
+ 
+    <!-- footer -->
+    <footer>
+        <div class="info">
+            <a href="#" class="logo">Gammers</a>
+            <p><i class="fa-regular fa-copyright"></i>2022 All Rights Reserved</p>
+            <ul>
+                <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+
+
+    <script>
+        /* Sticky NavBar*/
+        window.addEventListener('scroll',function(){
+            var header = document.querySelector('header');
+            header.classList.toggle('sticky',window.scrollY > 0);
+        });
+
+        /* Responsive Nevbar*/
+        function toggleMenu(){
+            const toggleMenu = document.querySelector('.toggleMenu');
+            const nav = document.querySelector('.nav');
+            toggleMenu.classList.toggle('active')
+            nav.classList.toggle('active')
+        }
+
+        /* Filterable Cards */
+        let list = document.querySelectorAll('list')
+        let card = document.querySelectorAll('card')
+
+        for(let j=0; j<list.length; j++){
+            list[i].addEventListener('click',function(){
+                for(let j=0; j<list.length; j++){
+                    list[j].classList.remove('active');
+                }
+                this.classList.add('active')
+ 
+                let dataFilter = this.getAttribute('data-Filter');
+            })
+            for( let k=0; k<card.length; k++)
+            {
+                card[k].classList.remove('active');
+                card[k].classList.add('hide');
+
+                if(card[k].getAttribute('data-item') == dataFilter || dataFilter == 'all'){
+                    card[k].classList.remove('hide');
+                    card[k].classList.add('active');
+                }
+
+
+            } 
+
+
+        }
+    </script>
+
+
+
+    <script src="js/bootstrap.min.js"></script>
+    
+</body>
+</html>
